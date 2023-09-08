@@ -1,5 +1,6 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.OlaMundo = void 0;
 var OlaMundo = /** @class */ (function () {
     function OlaMundo() {
     }
@@ -11,4 +12,3 @@ var OlaMundo = /** @class */ (function () {
 exports.OlaMundo = OlaMundo;
 var olaMundo = new OlaMundo();
 olaMundo.digaOlaTodos();
-//# sourceMappingURL=olaMundo.js.map

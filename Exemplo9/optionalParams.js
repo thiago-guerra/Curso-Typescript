@@ -13,5 +13,5 @@ console.log(exemploDefault());
 var resultado1 = somarParamsOpicionais(15, 20, 35);
 var resultado2 = somarParamsOpicionais(15, 20);
 console.log('a soma dos 3 params: ' + resultado1);
-console.log("a soma dos 2 params: " + resultado2);
+console.log("a soma dos 2 params: ".concat(resultado2));
 //# sourceMappingURL=optionalParams.js.map
