@@ -5,7 +5,7 @@ function exemploAny() {
     thiago = 'Olá coders';
     console.log("Thiago fala: ".concat(thiago));
     var list = [1, true, 'free'];
-    return list[0];
+    var list2 = [5, 6, 'nada', false];
+    return list2[2];
 }
 console.log(exemploAny());
-//# sourceMappingURL=anyDemo.js.map

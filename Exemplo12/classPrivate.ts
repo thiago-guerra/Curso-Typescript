@@ -1,12 +1,14 @@
  class Produto {
     private nome: string ;
+    private preco: number;
 
-    constructor(nome: string){
+    constructor(nome: string, preco: number){
         this.nome = nome;
+        this.preco = preco;
     }
 }
 
-new Produto("Teclado");
+new Produto("Teclado", 60);
 
 
 
@@ -26,7 +28,7 @@ class Carro {
         this.preco = preco;
     }
 
-    public DescontoValorCarro(){
+    private DescontoValorCarro(){
         return this.preco - (this.preco * 0.5);
     }
 
